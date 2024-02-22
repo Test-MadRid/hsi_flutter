@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'slide.dart';
+// import 'slide.dart';
 import 'profil.dart';
 import 'home.dart';
 
@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     final listPage = <Widget>[
       home(),
-      slide(),
+      const Text('Segera Hadir'),
       const Text('Segera Hadir'),
       profil()
     ];
