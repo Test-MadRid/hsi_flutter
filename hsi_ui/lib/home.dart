@@ -53,7 +53,7 @@ class home extends StatelessWidget {
                     Container(
                       margin: EdgeInsets.all(10),
                       alignment: Alignment.centerLeft,
-                      child: Text(
+                      child: const Text(
                         'Evaluasi',
                         style: TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 18),
@@ -64,7 +64,7 @@ class home extends StatelessWidget {
                       padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                             color: Colors.grey,
                             blurRadius: 1,
@@ -81,7 +81,7 @@ class home extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(7),
                                     color: Colors.blue[50]),
-                                padding: EdgeInsets.symmetric(
+                                padding: const EdgeInsets.symmetric(
                                     vertical: 5, horizontal: 7),
                                 child: Text(
                                   'Majalah HSI',
